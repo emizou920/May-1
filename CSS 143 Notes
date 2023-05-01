@@ -1,0 +1,15 @@
+Single linked list goes one way
+Each node contains a value(int) and a reference
+It has a head and also a tail(last node)
+The last tail contains reference is null
+
+In the linked list it's good to use break point to find the bug
+
+**
+Never use head = head.next
+**
+You are going to move the head to the last of the list
+
+We don't know what's the size of the linked list
+If we create an array to store linked list values, we guess the array size
+
